@@ -11,7 +11,7 @@ const App = () => {
       <CssBaseline />
       <NavBar />
       <main className='h-[70px]'>
-        <div className='p-8 flex-grow' />
+        <div className='p-10 flex-grow' />
         <Routes>
           <Route index path="/" element={<Movies />} />
           <Route path="/actors/:id" element={<Actors />} />
